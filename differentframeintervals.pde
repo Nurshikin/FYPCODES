@@ -333,7 +333,7 @@ void animate()
        //shikin Cycle through predefined intervals after each frame update
        interval_counter = (interval_counter + 1) % predefined_intervals.length;
        interval = predefined_intervals[interval_counter];
-       interval_ms = int(1000 * interval);  // Convert interval to milliseconds
+       interval_ms = int(1000 * interval);  // Convert interval to seconds
        
       changed=true;
     }
